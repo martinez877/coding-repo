@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/cardBtn1"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn4"
+        app:layout_constraintEnd_toStartOf="@+id/cardBtn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cardBtn2"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn5"
+        app:layout_constraintEnd_toStartOf="@+id/cardBtn3"
+        app:layout_constraintStart_toEndOf="@+id/cardBtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cardBtn3"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardBtn2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cardBtn4"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn7"
+        app:layout_constraintEnd_toStartOf="@id/cardBtn5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardBtn1" />
+
+    <Button
+        android:id="@+id/cardBtn5"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn8"
+        app:layout_constraintEnd_toStartOf="@+id/cardBtn6"
+        app:layout_constraintStart_toEndOf="@id/cardBtn4"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn2" />
+
+    <Button
+        android:id="@+id/cardBtn6"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardBtn9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardBtn5"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn3" />
+
+    <Button
+        android:id="@+id/cardBtn7"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardBtn8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn4" />
+
+    <Button
+        android:id="@+id/cardBtn8"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cardBtn9"
+        app:layout_constraintStart_toEndOf="@+id/cardBtn7"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn5" />
+
+    <Button
+        android:id="@+id/cardBtn9"
+        android:layout_width="@dimen/card_size"
+        android:layout_height="@dimen/card_size"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/card_back"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cardBtn8"
+        app:layout_constraintTop_toBottomOf="@+id/cardBtn6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

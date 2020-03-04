@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Monty</string>
+    <string name="ResetBtn">RESET</string>
+    <string name="PlayBtn">PLAY</string>
+    <string name="to_cards_layout">CARDS</string>
+    <string name="to_tictactoe_layout">TIC TAC TOE</string>
+
+    <string name="score">Score</string>
+    <string name="score_default">0</string>
+    <string name="score_text">"Games Played: "</string>
+
+</resources>
