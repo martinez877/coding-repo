@@ -10,4 +10,4 @@ New GitHub account.
 
 4. tic_tac_toe. AI unbeatable game done in Java. Designed using minimax algorithm and alpha-beta prunning for optimization.Two versions 3x3 board and 6x7x4. Still debugging.
 
-(Each project has their own readme)
+(Each project has its own readme)
