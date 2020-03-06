@@ -1,6 +1,6 @@
 # coding-repo
 New GitHub account
-#Adding some projects I've worked on:
+# Adding some projects I've worked on:
 
 1. map_ui project done in Java. map that computes shortest path between two locations through large scale data processing includes UI.
 
