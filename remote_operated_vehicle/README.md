@@ -1,4 +1,4 @@
-# Remote operated vehicle (hardware + software) project. Using Python and C
+# Remote operated vehicle (hardware + software) project. Using Python and C (MATLAB for testing communication)
 
 The overall project was to drive a remotely operated vehicle using a gamepad.
 The project consisted of a gamepad, we chose the d-pad mode, which sent commands
