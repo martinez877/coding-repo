@@ -28,21 +28,5 @@ take over the control, overriding any user input and shortly backing up. After
 which it will return control to the user. The sensor also controls the LEDs
 so it will proportionally light LEDs based on distance.
 
-Pins used.
 
-AN13 pin 42 for distance sensor
-for left motor:
-CN15 pin 83
-CN16 pin 84
-OC2 pin 76
-for right motor:
-CN20 pin 47
-CN21 pin 48
-OC3 pin 77
-GPIO pins
-for left motor
-RC1 pin 6
-RC2 pin 7
-for right motor
-RB9 pin 32
-RB10 pin 33
+
