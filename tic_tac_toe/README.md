@@ -1,3 +1,5 @@
 # Artificial Intelligence unbeatable Tic Tac Toe game using Java
 
-Game uses minimax algorithm to compute the best move by assigning weights to the nodes based on future paths. To further optimize the result, alpha-beta prunning algorithm is also implemented.
+This game uses the minimax algorithm to compute the best move by assigning weights to the nodes based on future paths. 
+
+For the 6x7 board, alpha-beta pruning algorithm is also implemented in order to further optimize the result.
