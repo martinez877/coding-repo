@@ -1,0 +1,61 @@
+/*
+ * Copyright (c) Clara Martinez Rubio, Thomas Kaizer, Matthew Hood 2020. All rights reserved.
+ * Last modified 5/10/20 10:34 AM
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ */
+ 
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>group 8 public site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="welcome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+        <span class="logInButtons">
+            <form>
+                <input TYPE="button" id="logIn" VALUE="Log In"
+                    onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/logIn.php'">
+                <input TYPE="button" id="signUp" VALUE="Sign Up"
+                    onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/signUp.php'">
+            </form>
+        </span>
+
+        <div class="dropdown">
+            <button class="dropButton">data tables</button>
+            <div class="dropdown-content">
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/user.php'">user</p>
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/product.php'">product</p>
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/listings.php'">listings</p>
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/has.php'">has</p>
+                <p
+                    onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/completedTransactions.php'">
+                    completed transactions</p>
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/biddingOn.php'">bidding on
+                </p>
+                <p onclick="window.location.href='http://betaweb.csug.rochester.edu/~tkaizer/are.php'">are</p>
+            </div>
+        </div>
+    </div>
+    <div id="bodyContent">
+        <h4 id="welcome">Welcome to</h4>
+        <h1 id="welcomeSub">decliningXchange</h1>
+        <br>
+        <hr>
+        <h5>Please log in or sign up to interact with our website</h5>
+        <h1>OR</h1>
+        <h5>Have a look at some of our data by clicking one of the options in the upper left dropdown</h5>
+    </div>
+
+</body>
+
+</html>

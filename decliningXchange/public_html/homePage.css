@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) Clara Martinez Rubio, Thomas Kaizer, Matthew Hood 2020. All rights reserved.
+ * Last modified 5/10/20 10:32 AM
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ */
+ 
+
+ .boxHeader{
+        width:100%;
+        text-align:center;
+        background:#480087;
+        color:white;
+        margin-bottom:0;
+	position: sticky;
+	top:0;
+	height: 5vh;
+}
+#wrapper{
+	display: flex;
+	margin-top: 11vh;
+}
+#listings{
+    width: 45vw;
+    max-height: 85vh;
+    overflow: auto;
+    display:inline-block;
+     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+margin-left: 2vw;
+margin-top: 2vh;
+}
+#bids{
+    width: 50vw;
+    max-height:85vh;
+    display: inline-block;
+    overflow: auto;
+     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+margin-left:10px;
+margin-top: 2vh;
+}

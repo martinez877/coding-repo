@@ -1,0 +1,145 @@
+/*
+ * Copyright (c) Clara Martinez Rubio, Thomas Kaizer, Matthew Hood 2020. All rights reserved.
+ * Last modified 5/10/20 10:34 AM
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ */
+
+
+#header {
+  text-align: center;
+  color: white;
+  margin-left: 2%;
+}
+
+body {
+  background: url(https://desktopwalls.net/wp-content/uploads/2015/08/Purple%20Windows%20Aero%20Desktop%20Wallpaper.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#nav {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: inline-flex;
+  width: 100%;
+}
+
+.logInButtons {
+  position: absolute;
+  right: 5%;
+}
+
+#logIn {
+  margin: 10px 10px 10px 10px;
+  color: white;
+  font-size: 20px;
+  padding: 16px;
+  border:1px solid white;
+  background: transparent;
+  width: 9vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#logIn:hover {
+  color: rgb(75, 0, 90);
+  background: white;
+}
+hr {
+  width: 40vw;
+  border-width: 2px;
+  border-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+}
+h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#bodyContent {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+#signUp {
+  margin: 10px 10px 10px 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  background: transparent;
+  width: 9vw;
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#signUp:hover {
+  color: rgb(75, 0, 90);
+  background: white;
+}
+
+#welcome {
+  font-size: 60px;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+
+#welcomeSub {
+  font-size: 85px;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.dropButton {
+  color: white;
+  background: transparent;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 15vw;
+  border: 1px solid white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content p:hover {
+  background-color: rgb(75, 0, 90);
+  color: white;
+}
+.dropdown-content p {
+  margin: 0 0 0 0;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

@@ -1,0 +1,34 @@
+/*
+ * Copyright (c) Clara Martinez Rubio, Thomas Kaizer, Matthew Hood 2020. All rights reserved.
+ * Last modified 5/10/20 10:34 AM
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ */
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #480087;
+  color: white;
+position: sticky;
+}
+
+#wrapper th{
+ top:5vh;
+}
+#container th{
+ position: sticky;
+ top:0;
+}

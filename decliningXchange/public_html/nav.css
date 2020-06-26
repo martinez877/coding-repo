@@ -1,0 +1,124 @@
+/*
+ * Copyright (c) Clara Martinez Rubio, Thomas Kaizer, Matthew Hood 2020. All rights reserved.
+ * Last modified 5/10/20 10:33 AM
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ */
+
+
+#nav {
+    position:fixed;
+    overflow:visible;
+    top: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: inline-flex;
+    background-image: linear-gradient(to right, #20005c , #8000ff);
+    width: 100%;
+    height: 11vh;
+    z-index: 100;
+  }
+
+  #userDropdown {
+    position: absolute;
+    right: 5vw;
+    display: inline-block;
+    margin-left: 5vw;
+  }
+
+  #searchButton{
+    position:absolute;
+    right: 27vw;
+    display: inline-block;
+}
+   
+  #backButton{
+   position: absolute;
+   right:5vw;
+   display: inline-block;
+   margin-left: 5vw;
+}
+
+  .dataDropdown{
+   position: absolute;
+   right:16vw;
+   display: inline-block;
+  }
+
+  .dropButton {
+    color: white;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 10vw;
+    border: 1px solid white;
+  }
+
+  #title{
+    color:white;
+    margin-left:3vw;
+    cursor:pointer;
+ }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+.dropdown-content p:hover {
+    background-color: rgb(75, 0, 90);
+    color: white;
+    border-radius:5px;
+  }
+  .dropdown-content p {
+    margin: 0 0 0 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    font-size:16px;
+    cursor: pointer;
+  }
+
+  #userDropdown:hover #userDropContent {
+    display: block;
+  }
+
+  .dataDropdown:hover #dataDropContent {
+    display: block;
+  }
+
+.dropButton:hover{
+	color: rgb(75, 0, 90);
+	background: white;
+}
+#addButton{
+	position: absolute;
+	right:27vw;	
+}
+#removeButton{
+	position:absolute;
+	right: 38vw;
+}
+#updateButton{
+	position: absolute;
+	right: 51vw;
+}
+
+#searchBar{
+	width: 25vw;
+	position: absolute;
+	right: 39vw;
+	top: 3vh;
+	height: 6vh;
+	border-radius: 5px;
+}
+
