@@ -1,4 +1,4 @@
-# Map project in Java. Includs UI using Java Graphics
+# Map project in Java. Includs UI in Java Graphics
 Project implements a mapping program in Java. The program reads formatted data on the intersections and roads that make up a map. It then calculates the shortest path between two intersections using Dijkstra’s algorithm. Ultimately, the program outputs a graph with a red line highlighting the shortest route utilizing Java Graphic’s GUI. 
 
 The output graph employs a HashMap of Strings to LinkedLists. The Strings represent IntersectionIDs. The LinkedLists store the Intersection object by keeping a reference to a node Head and a pointer to an Edge. Each Edge stores the Road that the Intersection is a part of as well as a pointer to the next Edge, thus forming the LinkedList. When Intersections are first inserted into the graph they are added to a priority queue. The queue finds the shortest path in optimal time. 
